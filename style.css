@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Serif Pro', serif;
+    
+}
+ 
+header{
+    /* height: 58vh; */
+    background-color: #c15355;
+    color: white;
+    width: 100%;
+    position: fixed;
+    
+
+}
+
+#navbar{
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 29px;
+     
+}
+
+
+
+ul{
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 27vw;
+    margin-right: 50px;
+
+    /* padding: 10px; */
+
+
+}
+
+#Assignment_text{
+    font-size: 2rem;
+    margin-left: 90px;
+}
+
+li{
+    /* border: 1px solid white ; */
+    /* padding: 20px; */
+    
+}
+
+.a1{
+    /* border: 1px solid green; */
+    color: white;
+    /* padding: 10px; */
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+
+.full_stack_text{
+    /* border: 1px solid white; */
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #c15355;
+    color: white;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    padding: 70px;
+    
+}
+
+.full_stack_heading{
+    font-size: 5rem;
+}
+
+.full_stack_para {
+    font-size: 1.5rem;
+}
+
+/* Mid Part One Section CSS Start here */
+
+.mid_one{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    padding: 81px;
+    margin: 50px;
+    /* padding-right: 20px; */
+}
+
+.block_one{
+    /* border: 1px solid red; */
+    padding: px;
+    margin: px;
+}
+
+.heading_top{
+    font-size: 2.5rem;
+}
+
+.para_top{
+    font-size: 1.4rem;
+}
+
+
+.heading_top, .para_top{
+    padding: 12px;
+}
+
+.more{
+    width: 80px;
+    height: 45px;
+    margin: 13px;
+    border: none;
+    background-color: #c15355;
+    color: white;
+    font-size: 1.2rem;
+    font-size: bold;
+    cursor: pointer;
+}
+/* Mid Part One - CSS End here */
+/* Mid Part Two - CSS Start here */
+
+.section_two{
+    /* border: 1px solid rgb(51, 255, 0); */
+    /* margin: 10px; */
+    background-color: #c15355;
+    /* margin: 50px; */
+    /* padding: 50px; */
+    color: white;
+    padding: 35px;
+
+}
+
+.top_text{
+    /* border: 1px solid rgb(63, 55, 175); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 59px;
+    padding-bottom: 10px;
+    color:#ffffff;
+    /* color: white; */
+   
+}
+
+.top_head{
+    font-size: 3.5rem;
+}
+
+.top_para{
+    font-size: 1.2rem;
+}
+
+.pic_main_container{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.pic_small_container{
+    /* border: 1px solid grey; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    margin: 25px;
+}
+
+.mentor_image{
+    width: 259px;
+    height: 259px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    /* box-shadow: 0px 0px 10px white; */
+    /* padding: 5px; */
+}
+.aircampus1{
+    width: 140px;
+    height: 35px;
+}
+
+fieldset{
+    border: 1px solid rgb(175, 173, 173);
+    /* width: 200px; */
+    /* height: 50px; */
+    position: relative;
+    /* top: 50px; */
+    /* left: 50px; */
+    box-sizing: border-box;
+    /* border: solid black 1px; */
+    margin: 25px;
+}
+
+legend{
+    border: 1px solid grey;
+    position: absolute;
+    bottom: 0;
+    /* left: 50%; */
+    right: 0;
+    transform: translate(-0.01%, 50%);
+    padding: 0 5px;
+    /* width: 10px; */
+    background-color: white;
+    border-radius: 5px;
+    /* position: relative; */
+    /* bottom-le: 5px; */
+}
+
+
+
+/* Mid Part Two - CSS End here */
+/* Mid Part THREE - CSS START here */
+
+#scene_main_container{
+    border-bottom : 1px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* margin-bottom: 10px; */
+    
+}
+
+#scene_small_container{
+    /* border: 1px solid red; */
+    width: 550px;
+    margin: 50px;
+    padding: 20px;
+}
+
+#scene_heading{
+    padding-top: 20px;
+    font-size: 2.1rem;
+    color: #c15355;
+}
+
+.top_text1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 59px;
+    padding-bottom: 10px;
+    color:#c15355;
+    /* color: white; */
+}
+
+#scene_image{
+    width: 550px;
+}
+
+.more_scene{
+    width: 99px;
+    height: 49px;
+    /* margin: 13px; */
+    border: none;
+    background-color: #c15355;
+    color: white;
+    font-size: 1.2rem;
+    font-size: bold;
+    margin-top: 20px;
+
+}
+
+#scene_para{
+    font-size: 1.3rem;
+    /* padding: 10px; */
+}
+
+#scene_para{
+    padding-top: 20px;
+}
+
+/* Mid Part THREE - CSS End here */
+
+/* FOOTER- CSS start here */
+
+#footer_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding-left: 50px;
+    padding-right: 50px;
+    /* margin: 10px; */
+    /* margin-bottom: 100px; */
+
+}
+
+#icon{
+    height: 50px;
+    color: #c15355;
+    
+
+}
+
+.fa-facebook-f{
+    color:#ffffff;
+    background-color:#c15355;
+    /* font-size: 50px; */
+    width: 22px;
+    height: 22px;
+    /* padding: 15px; */
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+.fa-linkedin {
+    color:#ffffff;
+    background-color:#c15355;
+    /* font-size: 50px; */
+    /* width: 25px; */
+    /* height: 25px; */
+    /* padding: 15px; */
+    /* border-radius: 5%; */
+    /* text-align: center; */
+
+}
+
+.fa-instagram{
+    color:#ffffff;
+    background-color:#c15355;
+}
+
+.fa-twitter{
+    color:#c15355 ;
+    background-color:white;
+}
+
+#all_icon{
+    /* border: 1px solid red; */
+    /* padding: 40px; */
+}
+
+
+
+.fa{
+    margin: 5px;
+}
+
+/* FOOTER- CSS End here */
+
+.aa{
+    color: red;
+    font-size: 50px;
+}
+
+#up{
+    height: 50px;
+    width: 50px;
+    border: 6px solid #c15355;
+    border-radius: 50%;
+    font-weight: bold;
+    position: fixed;
+    bottom: 80px;
+    right: 80px;
+    cursor: pointer;
+
+}
+ 
